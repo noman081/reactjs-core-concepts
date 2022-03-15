@@ -36,7 +36,22 @@
     transform: rotate(360deg);
   }
 }
-
+.para, .person{
+  color: brown;
+  background-color: #61dafb;
+  padding: 10px 60px;
+  border-radius: 20px;
+  margin: 10px;
+  border: 3px solid purple;
+}
+.friend{
+  color: chocolate;
+  background-color: antiquewhite;
+  padding: 10px 60px;
+  border-radius: 20px;
+  margin: 10px;
+  border: 3px solid greenyellow;
+}
 .title{
   color: cyan;
 }
