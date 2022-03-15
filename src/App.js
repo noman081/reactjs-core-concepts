@@ -29,6 +29,11 @@ function App() {
       <h3>My New friend</h3>
       <Friend></Friend>
       <Friend></Friend>
+
+      <h3>Props are using here</h3>
+      {/* props using here */}
+      <NewPerson name="Abdullah Al Noman" phone="01811191228"></NewPerson>
+      <NewPerson name="Sharif Osman" phone="01521109642"></NewPerson>
     </div>
   );
 }
@@ -51,4 +56,14 @@ function Friend() {
   )
 }
 
+// props 
+const NewPerson = props => {
+  console.log(props);
+  return (
+    <div className='person'>
+      <h2>Name: {props.name}</h2>
+      <p>Phone: {props.phone}</p>
+    </div>
+  )
+}
 export default App;
